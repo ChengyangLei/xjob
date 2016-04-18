@@ -1,6 +1,5 @@
 package main
 
-// jobItem中的字段必须首字母大写，否则传入其它包会不可见，例如传入c.JSON的时候。
 type jobItem struct {
 	// id
 	Id int

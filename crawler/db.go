@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/go-ini/ini"
 	_ "github.com/go-sql-driver/mysql"
-	"lagou/util"
+	"github.com/vwufeng/xjob/util"
 )
 
 // create table job(

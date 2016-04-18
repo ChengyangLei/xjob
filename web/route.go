@@ -1,7 +1,6 @@
 package main
 
 import (
-	// "fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-ini/ini"
 	"lagou/util"
@@ -31,7 +30,7 @@ func main() {
 	r.Run()
 }
 
-// 冒泡排序
+// 根据发布时间排序
 func sortedByTime(jobs []jobItem) []jobItem {
 	for itemCount := len(jobs) - 1; ; itemCount-- {
 		swap := false

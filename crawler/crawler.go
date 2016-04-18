@@ -5,7 +5,7 @@ import (
 	"fmt"
 	gq "github.com/PuerkitoBio/goquery"
 	sjs "github.com/bitly/go-simplejson"
-	"lagou/util"
+	"github.com/vwufeng/xjob/util"
 	"net/http"
 	"net/url"
 	"strconv"
